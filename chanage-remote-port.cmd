@@ -1,5 +1,5 @@
 # 👉 set new windows remote port
-$portvalue = 963
+$portvalue = 999
 
 # 👉 Get current remote port number
 Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "PortNumber"
